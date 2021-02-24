@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+        <title> Hybrid Gain Exp Results Display Tool </title>
+
+</head>
+
+<body>
+<script   src="https://code.jquery.com/jquery-3.1.1.min.js"   integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="   crossorigin="anonymous">
+</script>
+
+<script type='text/javascript'>
+function displayImage0(elem) {  
+  paramArray=elem.value.split(","); 
+  var image = document.getElementById("0"); image.src = paramArray[0]; image.alt= "undefined"; 
+  var image = document.getElementById("1"); image.src = paramArray[1]; image.alt= "undefined"; 
+  var image = document.getElementById("2"); image.src = paramArray[2]; image.alt= "undefined"; 
+};
+
+function displayImage1(elem) {  
+  paramArray=elem.value.split(","); 
+  var image = document.getElementById("3"); image.src = paramArray[0]; image.alt= "undefined"; 
+  var image = document.getElementById("4"); image.src = paramArray[1]; image.alt= "undefined"; 
+  var image = document.getElementById("5"); image.src = paramArray[2]; image.alt= "undefined"; 
+};
+
+function displayImage2(elem) {  
+  paramArray=elem.value.split(","); 
+  var image = document.getElementById("6"); image.src = paramArray[0]; image.alt= "undefined"; 
+  var image = document.getElementById("7"); image.src = paramArray[1]; image.alt= "undefined"; 
+  var image = document.getElementById("8"); image.src = paramArray[2]; image.alt= "undefined"; 
+};
+
+</script>
+
+    <h1 align="center">Chih-Chien's DA Experiment Comparison Tool</h1> 
+	<h2 align="center"> Exp010 :   @ with RO exp </h2>
+	<h2 align="center">Last updated: Wed Feb 24 16:40:20 CST 2021 </h2>
+	<hr>
+
+	<table style="width:100%">
+	<h2> Temperature increment at each model level </h2>
+	<thead>
+	<tr>
+		<th></th>
+		<th></th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+	    <td width="1px">
+                 <select size="20" name="imageList" onchange="displayImageKHYB(this);">
+               </select>
+        </td>
+        <td width="800px"><img class="fig" id="" align="center" style="width:100%"></div></td>
+        <td width="800px"><img class="fig" id="" align="center" style="width:100%"></div></td>
+        <td width="800px"><img class="fig" id="" align="center" style="width:100%"></div></td>
+	</tr>
+	</tbody>
+	</table>
+   
+	<hr>
+	<table style="width:100%">
+	<h2> QV incrememt at each model level </h2>
+	<thead>
+	<tr>
+		<th></th>
+		<th></th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+	    <td width="1px">
+                 <select size="20" name="imageList" onchange="displayImageKHYB(this);">
+               </select>
+        </td>
+        <td width="800px"><img class="fig" id="" align="center" style="width:100%"></div></td>
+        <td width="800px"><img class="fig" id="" align="center" style="width:100%"></div></td>
+        <td width="800px"><img class="fig" id="" align="center" style="width:100%"></div></td>
+	</tr>
+	</tbody>
+	</table>
+   
+	<hr>
+	<table style="width:100%">
+	<h2> U-wind incrememt at each model level </h2>
+	<thead>
+	<tr>
+		<th></th>
+		<th></th>
+	</tr>
+	</thead>
+	<tbody>
+	<tr>
+	    <td width="1px">
+                 <select size="20" name="imageList" onchange="displayImageKHYB(this);">
+               </select>
+        </td>
+        <td width="800px"><img class="fig" id="" align="center" style="width:100%"></div></td>
+        <td width="800px"><img class="fig" id="" align="center" style="width:100%"></div></td>
+        <td width="800px"><img class="fig" id="" align="center" style="width:100%"></div></td>
+	</tr>
+	</tbody>
+	</table>
+   
+	<hr>
+</body>
+</html>
+
+
